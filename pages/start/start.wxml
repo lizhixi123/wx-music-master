@@ -1,0 +1,6 @@
+<!--start.wxml-->
+
+<button class="btn1" bindtap="getDataFromOneNet">
+温湿度监测(OneNet)</button>
+
+

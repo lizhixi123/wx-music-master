@@ -1,0 +1,18 @@
+
+<view  >
+<image  src="/static/image/快递查.jpg"></image>
+
+
+<view>  <form  bindsubmit='searchBox'>   
+   <input placeholder="快递公司编号" name='username'></input>
+     <input placeholder="快递单号" name='pwd'></input>   
+        <button class='login' form-type='submit'>查询</button>  </form>
+        </view>
+        <view wx:for="{{movie}}" class='container'>
+        <text>{{item.datetime}}</text>
+        <text>{{item.remark}}</text>
+        </view>
+
+</view>
+
+
