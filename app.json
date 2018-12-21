@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/singer/singer",
+    "pages/singer-detail/singer-detail",
+    "pages/player/player",
+    "pages/my/my",
+    "pages/search/search",
+    "pages/top-list/top-list",
+    "pages/index1/index1",
+    "pages/logs1/logs1",
+    "pages/start/start",
+    "pages/wifi_station/tianqi/tianqi"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#222",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#919191",
+    "selectedColor": "#ffcd32",
+    "backgroundColor": "#333",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "推荐",
+        "iconPath": "static/image/home-1.png",
+        "selectedIconPath": "static/image/home-2.png"
+      },{
+        "pagePath": "pages/player/player",
+        "text": "正在播放",
+        "iconPath": "static/image/rank-1.png",
+        "selectedIconPath": "static/image/rank-2.png"
+      },
+      {
+        "text":"天气情况",
+        "pagePath":"pages/index1/index1",
+        "iconPath":"static/assets/icons/100.png",
+        "selectedIconPath":"static/assets/icons/101.png"
+      },
+      {
+        "text":"宿舍情况",
+        "pagePath":"pages/start/start",
+        "iconPath": "static/assets/icons/102.png",
+         "selectedIconPath": "static/assets/icons/101.png" 
+      }
+      
+    ]
+  }
+}
